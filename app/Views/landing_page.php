@@ -4,9 +4,9 @@
    <link rel="stylesheet" href="/css/app.css">
 </head>
 
-<body>
-   <header>
-      <div class="flex justify-between py-2 text-xs font-semibold mx-32 mb-4 font-poppins">
+<body class="font-poppins">
+   <header class="mb-32">
+      <div class="flex justify-between py-2 text-xs font-semibold mx-32 mb-4 ">
          <ul class="flex">
             <li class="pr-2"><img src="/assets/icon/phone.svg" alt="phone"></li>
             <li class="pr-6">082369417898</li>
@@ -19,7 +19,7 @@
             <li class="pr-4">Kontak</li>
          </ul>
       </div>
-      <div class="flex justify-between mx-32 text-sm font-poppins font-semibold mb-2">
+      <div class="flex justify-between mx-32 text-sm  font-semibold mb-2">
          <ul class="flex items-center">
             <img src="/assets/logo.JPG" alt="logo" width="10%">
             <li>
@@ -42,9 +42,9 @@
       <!-- jumbotron -->
       <div class="flex bg-heroJum text-slate-50 items-center">
          <div class="mx-32">
-            <h1 class="font-poppins font-bold mb-4 text-4xl">Achievement, Sholeh, Intelect, <br> Character <strong
+            <h1 class=" font-bold mb-4 text-4xl">Achievement, Sholeh, Intelect, <br> Character <strong
                   class="text-asci">-
-                  ASCI</strong>
+                  ASIC</strong>
                </p>
             </h1>
             <p class="font-redHat text-base mb-4">Born to be ASIC Generation</p>
@@ -52,19 +52,55 @@
                expedita quis
                voluptatibus explicabo consequatur quam, minima nostrum aspernatur ex molestiae soluta neque odio enim
                voluptatum nam quibusdam amet!</p>
-            <button class="bg-buttonLearnMore text-slate-950 font-poppins text-xs font-bold p-4">Learn More</button>
+            <button class="bg-buttonLearnMore text-slate-950  text-xs font-bold p-4">Learn More</button>
          </div>
          <div>
             <img src="/assets/hero-model.jpg" alt="jumbotron">
          </div>
       </div>
    </header>
-   <section>
+   <section class="flex mx-52">
       <div>
-         <h2>Achievement, Sholeh, Intelect, Character <strong class="text-asci">- ASIC</strong></h2>
+         <div class="mb-10 text-center">
+            <h2 class="text-3xl mb-4 font-bold">Achievement, Sholeh, Intelect, Character <strong class="text-asci">-
+                  ASIC</strong></h2>
+            <p class="text-base font-light">Melahirkan generasi yang sholeh, cerdas, berprestasi, dan berkarakter</p>
+         </div>
+         <div class="grid grid-cols-2">
+            <div class="flex items-center mb-16">
+               <img class="mr-4" src="/assets/icon/achievment.svg" alt="achievment">
+               <div>
+                  <h3 class="font-bold text-lg">Achievement</h3>
+                  <p class="text-sm">Melahirkan generasi yang berprestasi</p>
+               </div>
+            </div>
+            <div class="flex items-center mb-16">
+               <img class="mr-4" src="/assets/icon/intelek.svg" alt="intelect">
+               <div>
+                  <h3 class="font-bold text-lg">Intelect</h3>
+                  <p class="text-sm">Melahirkan generasi yang cerdas</p>
+               </div>
+            </div>
+         </div>
+         <div class="grid grid-cols-2">
+            <div class="flex items-center mb-16">
+               <img class="mr-4" src="/assets/icon/sholeh.svg" alt="achievment">
+               <div>
+                  <h3 class="font-bold text-lg">Achievement</h3>
+                  <p class="text-sm">Melahirkan generasi yang berprestasi</p>
+               </div>
+            </div>
+            <div class="flex items-center mb-16">
+               <img class="mr-4" src="/assets/icon/berkarakter.svg" alt="berkarakter">
+               <div>
+                  <h3 class="font-bold text-lg">Intelect</h3>
+                  <p class="text-sm">Melahirkan generasi yang cerdas</p>
+               </div>
+            </div>
+         </div>
       </div>
-      <div>
-
+      <div class="pr-16">
+         <img src="/assets/siswa2.jpg" alt="siswa">
       </div>
    </section>
 </body>
