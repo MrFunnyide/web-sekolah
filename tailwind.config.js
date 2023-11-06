@@ -18,6 +18,7 @@ module.exports = {
       },
       textColor: {
         asci: '#FF5E15',
+        basic: '#01937C',
       },
     },
   },

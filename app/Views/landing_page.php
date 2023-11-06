@@ -42,9 +42,8 @@
       <!-- jumbotron -->
       <div class="flex bg-heroJum text-slate-50 items-center">
          <div class="mx-32">
-            <h1 class=" font-bold mb-4 text-4xl">Achievement, Sholeh, Intelect, <br> Character <strong
-                  class="text-asci">-
-                  ASIC</strong>
+            <h1 class=" font-bold mb-4 text-4xl">Achievement, Sholeh, Intelect, <br> Character -
+               ASIC
                </p>
             </h1>
             <p class="font-redHat text-base mb-4">Born to be ASIC Generation</p>
@@ -59,11 +58,11 @@
          </div>
       </div>
    </header>
-   <section class="flex mx-52">
+   <section class="flex mx-52 text-basic mb-24">
       <div>
          <div class="mb-10 text-center">
-            <h2 class="text-3xl mb-4 font-bold">Achievement, Sholeh, Intelect, Character <strong class="text-asci">-
-                  ASIC</strong></h2>
+            <h2 class="text-4xl mb-4 font-bold">Achievement, Sholeh, Intelect, Character -
+               ASIC</h2>
             <p class="text-base font-light">Melahirkan generasi yang sholeh, cerdas, berprestasi, dan berkarakter</p>
          </div>
          <div class="grid grid-cols-2">
@@ -101,6 +100,73 @@
       </div>
       <div class="pr-16">
          <img src="/assets/siswa2.jpg" alt="siswa">
+      </div>
+   </section>
+   <section class="bg-heroJum flex justify-around text-slate-50 text-center p-24 mb-28">
+      <div>
+         <p class="text-5xl font-semibold">15<sup>+</sup></p>
+         <p class="text-lg font-light">Unit Pendidikan</p>
+      </div>
+      <div>
+         <p class="text-5xl font-semibold">12<sup>+</sup></p>
+         <p class="text-lg font-light">Tenaga Pendidik</p>
+      </div>
+      <div>
+         <p class="text-5xl font-semibold">113<sup>+</sup></p>
+         <p class="text-lg font-light">Murid</p>
+      </div>
+      <div>
+         <p class="text-5xl font-semibold">98<sup>+</sup> </p>
+         <p class="text-lg font-light">Alumni</p>
+      </div>
+   </section>
+   <section class="mb-28">
+      <div class="text-center text-basic mb-16">
+         <div class="flex justify-center items-center mb-4">
+            <img class="pr-3" src="/assets/icon/stars.svg" alt="stars">
+            <p>Unit Pendidikan</p>
+            <img class="pl-3" src="/assets/icon/stars.svg" alt="stars">
+         </div>
+         <h2 class="text-4xl font-bold mb-4">El Haqqa Quranic School</h2>
+         <p>RA - SD - SMP ALAM - SMA ALAM - MA'HAD</p>
+      </div>
+      <div class="flex justify-center ">
+         <div class="text-center w-64 p-6 mr-8 hover:bg-heroJum hover:text-slate-50">
+            <img class="m-auto" src="/assets/icon/ra.svg" alt="Ra">
+            <p class="text-lg font-semibold mb-6">RA El Haqqa Quranic School</p>
+            <p class="text-base mb-4">Melahirkan generasi yang sholeh, cerdas, berprestasi, dan berkarakter</p>
+            <div class="flex">
+               <img src="/assets/icon/stars.svg" alt="stars">
+               <p class="text-sm">Achievement, Sholeh, Intelect, Character</p>
+            </div>
+         </div>
+         <div class="text-center w-64 p-6 mr-8 hover:bg-heroJum hover:text-slate-50">
+            <img class="m-auto" src="/assets/icon/sd.svg" alt="sd">
+            <p class="text-lg font-semibold mb-6">SD El Haqqa Quranic School</p>
+            <p class="text-base mb-4">Melahirkan generasi yang sholeh, cerdas, berprestasi, dan berkarakter</p>
+            <div class="flex">
+               <img src="/assets/icon/stars.svg" alt="stars">
+               <p class="text-sm">Achievement, Sholeh, Intelect, Character</p>
+            </div>
+         </div>
+         <div class="text-center w-64 p-6 mr-8 hover:bg-heroJum hover:text-slate-50">
+            <img class="m-auto" src="/assets/icon/alam.svg" alt="alam">
+            <p class="text-lg font-semibold mb-6">SMP-SMA Alam Haqqa</p>
+            <p class="text-base mb-4">Melahirkan generasi yang sholeh, cerdas, berprestasi, berkarakter dan mandiri</p>
+            <div class="flex">
+               <img src="/assets/icon/stars.svg" alt="stars">
+               <p class="text-sm">School Based on Project</p>
+            </div>
+         </div>
+         <div class="text-center w-64 p-6 mr-8 hover:bg-heroJum hover:text-slate-50">
+            <img class="m-auto" src="/assets/icon/mahad.svg" alt="mahad">
+            <p class="text-lg font-semibold mb-6">Ma'had El Haqqa </p>
+            <p class="text-base mb-4">Bahasa Arab, Tahfidz dan Studi Islam</p>
+            <div class="flex">
+               <img src="/assets/icon/stars.svg" alt="stars">
+               <p class="text-sm">Bahasa arab otak kanan, belajar semudah senyum</p>
+            </div>
+         </div>
       </div>
    </section>
 </body>
